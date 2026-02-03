@@ -48,12 +48,12 @@ The model consists of a sequential custom CNN with the following structure:
 ### Accuracy & Loss Curves
 The model shows stable convergence with no signs of overfitting, thanks to Batch Normalization and Dropout techniques.
 
-![Accuracy & Loss Curves](photos/Screenshot 2026-02-03 134016.png)
+![Training Accuracy Graph](accuracy_graph.png)
 
 ### Confusion Matrix
 The model distinguishes between similar rice types (e.g., Jasmine vs. Basmati) with high precision.
 
-![Confusion Matrix](photos/Screenshot 2026-02-03 134000.png)
+![Confusion Matrix](confusion_matrix.png)
 
 ### Performance Metrics
 | Class | Precision | Recall | F1-Score |
